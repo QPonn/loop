@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--1.Tìm số nguyên dương nhỏ nhất sao cho:
+    1 + 2 + … + n > 10000-->
+    <div class="container p-5">
+      <h1>
+        Bài 1: Tìm số nguyên dương nhỏ nhất sao cho: 1 + 2 + … + n > 10000
+      </h1>
+      <div class="form-group">
+        <label for="">Số nguyên dương nhỏ nhất</label>
+        <input
+          type="text"
+          name=""
+          id="tinh-bai-1-ne"
+          class="form-control"
+          placeholder="So nguyen duong nho nhat"
+        />
+      </div>
+      <button type="button" id="button-1" class="btn btn-success">Tính</button>
+    </div>
+    <!-- end bài 1 -->
+
+    <!--2.Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 + x^3 + … + x^n (Sử dụng vòng lặp và hàm) -->
+    <div class="container p-5">
+      <h1>
+        Bài 2: Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 +
+        x^3 + … + x^n
+      </h1>
+      <div class="form-group">
+        <label for="">Nhập số x</label>
+        <input
+          type="number"
+          name=""
+          id="so-x"
+          class="form-control"
+          placeholder="Tìm x"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số n</label>
+        <input
+          type="number"
+          name=""
+          id="so-n"
+          class="form-control"
+          placeholder="Tìm n"
+        />
+      </div>
+      <button type="button" id="button-2" class="btn btn-success">Tính</button>
+      <div class="w-25 m-auto text-center">
+        <label class="form-label">Tổng</label>
+        <input
+          type="text"
+          class="form-control"
+          id="tinh-bai-2"
+          placeholder="Tổng"
+        />
+      </div>
+    </div>
+    <!-- end bài 2 -->
+    <!-- 3.Nhập vào n. Tính giai thừa 1*2*...n -->
+    <div class="container p-5">
+      <h1>Bài 3: Nhập vào n. Tính giai thừa 1*2*...n</h1>
+
+      <div class="form-group">
+        <label for="">Nhập vào số n</label>
+        <input
+          type="text"
+          id="so-n"
+          class="form-control"
+          placeholder="nhap so n"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">giai thừa 1*2*...n</label>
+        <input
+          type="text"
+          class="form-control"
+          id="ketQua3"
+          placeholder="giai thừa 1*2*...n"
+        />
+        <button type="button" id="tinh-so-n" class="btn btn-success">
+          Tính
+        </button>
+      </div>
+    </div>
+
+    <!-- end bài 3 -->
+    <!-- 4.viết chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu div nào vị trí chẵn thì background màu đỏ và lẻ thì background màu xan -->
+    <div class="container p-5">
+      <h1>
+        Bài 4: Hãy viết chương trình khi click vào button sẽ in ra 10 thẻ div.
+        Nếu div nào vị trí chẵn thì background màu đỏ và lẻ thì background màu
+        xanh.
+      </h1>
+      <div class="form-group">
+        <label for="">Nhập vào số thẻ</label>
+        <input
+          type="number"
+          id="so-div"
+          class="form-control"
+          placeholder="Nhập vào số div"
+        />
+      </div>
+
+      <button type="button" id="xuat" class="btn btn-success">Xuất</button>
+      <div
+        id="ket-qua"
+        class="mt-5 d-flex flex-column justify-content-center align-items-center"
+      ></div>
+    </div>
+    <!-- end bài 4 -->
+    <!-- 5.Viết chương trình có một ô input, một button. Khi click vào button thì in ra các số nguyên tố từ 1 tới giá trị của ô input -->
+    <div class="container p-5">
+      <h1>
+        Bìa 5: Viết chương trình có một ô input, một button. Khi click vào
+        button thì in ra các số nguyên tố từ 1 tới giá trị của ô input
+      </h1>
+      <div class="form-group">
+        <label for="">Nhập vào số >= 2</label>
+        <input
+          type="number"
+          id="so-lon-hon-bang-2"
+          class="form-control"
+          placeholder="Nhập vào số >= 2"
+        />
+      </div>
+      <button type="button" id="tinh" class="btn btn-success">Tính</button>
+      <div class="form-group">
+        <label for="">Các con số nguyên tố từ 1 tới giá trị của ô input</label>
+        <input
+          type="text"
+          id="ketQua"
+          class="form-control"
+          placeholder="Các con số nguyên tố từ 1 tới giá trị của ô input"
+        />
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./baitap1.js"></script>
+    <script src="./baitap2.js"></script>
+    <script src="./baitap3.js"></script>
+    <script src="./baitap4.js"></script>
+    <script src="./baitap5.js"></script>
+  </body>
+</html>
